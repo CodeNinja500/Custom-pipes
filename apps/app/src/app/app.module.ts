@@ -14,6 +14,10 @@ import { SortPipeModule } from './pipes/sort.pipe-module';
 import { CreditCardNumberPipeModule } from './pipes/credit-card-number.pipe-module';
 import { SearchPipeModule } from './pipes/search.pipe-module';
 import { PhoneNumberPipeModule } from './pipes/phone-number.pipe-module';
+import { PlaceholderImgPipeModule } from './pipes/placeholder-img.pipe-module';
+import { TranslatePipeModule } from './pipes/translate.pipe-module';
+import { PluckPipeModule } from './pipes/pluck.pipe-module';
+import { MaxNumberPipeModule } from './pipes/max-number.pipe-module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -32,6 +36,10 @@ import { PhoneNumberPipeModule } from './pipes/phone-number.pipe-module';
     SearchPipeModule,
     CreditCardNumberPipeModule,
     PhoneNumberPipeModule,
+    PlaceholderImgPipeModule,
+    TranslatePipeModule,
+    PluckPipeModule,
+    MaxNumberPipeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
